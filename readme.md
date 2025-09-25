@@ -4,7 +4,7 @@ This repository contains PowerShell scripts and resources for automating Windows
 
 ## Repository Structure
 
-```
+```text
 LICENSE
 OOBE/
     OOBE-Task.ps1
