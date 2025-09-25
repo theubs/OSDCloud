@@ -6,11 +6,9 @@
     Automates the deployment of Windows 11 with specified parameters, downloads OOBE scripts, and sets up post-installation tasks.
 
 .NOTES
-    Author: Florian Salzmann | @FlorianSLZ | https://scloud.work
+    Author: Thibaut Lemonnier
     Version: 1.0
-
-    Changelog:
-    - 2025-05.14: 1.0 Initial version
+    Date: 2023-10-01
 
     
 #>
@@ -35,7 +33,7 @@ $Params = @{
     OSLicense = "Retail"
     ZTI = $true
     Firmware = $false
-    SkipAutopilot = $true
+    SkipAutopilot = $false
 }
 Start-OSDCloud @Params
 
