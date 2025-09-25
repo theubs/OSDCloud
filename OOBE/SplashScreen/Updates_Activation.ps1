@@ -17,19 +17,19 @@
 $Scripts2run = @(
   @{
     Name = "Enabling built-in Windows Producy Key"
-    Script = "https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/Set-EmbeddedWINKey.ps1"
+    Script = "https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/Set-EmbeddedWINKey.ps1"
   },
   @{
     Name = "Windows Quality Updates"
-    Script = "https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/Windows-Updates_Quality.ps1"
+    Script = "https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/Windows-Updates_Quality.ps1"
   },
   @{
     Name = "Windows Firmware and Driver Updates"
-    Script = "https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/Windows-Updates_DriverFirmware.ps1"
+    Script = "https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/Windows-Updates_DriverFirmware.ps1"
   },
   @{
     Name = "Saving Logs and Cleanup"
-    Script = "https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/OSDCloud-CleanUp.ps1"
+    Script = "https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/OSDCloud-CleanUp.ps1"
   }
 )
 

@@ -43,7 +43,7 @@ Start-OSDCloud @Params
 Write-Host -ForegroundColor Green "Downloading and creating script for OOBE phase"
 New-Item -Path "C:\Windows\Setup\Scripts" -ItemType Directory -Force | Out-Null
 $OOBEScript = "Updates_Activation.ps1"
-Invoke-RestMethod   -Uri "https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/SplashScreen/$OOBEScript" `
+Invoke-RestMethod   -Uri "https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/SplashScreen/$OOBEScript" `
                     -OutFile "C:\Windows\Setup\Scripts\$OOBEScript"
 
 $OOBECMD = @"
