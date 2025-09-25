@@ -23,7 +23,7 @@ New-OSDCloudTemplate
 # Zero Touch via GitHub script
 Edit-OSDCloudWinPE  -WorkspacePath $WorkspacePath `
                     -WebPSScript "https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OSDPad/OSDCloud-W11-24H2-en-us_wUpdates.ps1" `
-                    -Wallpaper "C:\GIT\OSDCloud\OSDCloud ISO creation\TG.png" `
+                    -Wallpaper "C:\GIT\OSDCloud\OSDCloud ISO creation\TG.jpg" `
                     -CloudDriver *
 
 
