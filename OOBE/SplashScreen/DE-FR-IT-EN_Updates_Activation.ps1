@@ -3,7 +3,7 @@
     Displays a Splash Screen to Installs the latest Windows 10/11 quality updates + activates Windows. 
 
 .NOTES
-    Author: Florian Salzmann | @FlorianSLZ | https://scloud.work
+    Author: Thibaut Lemonnier
     Version: 1.3
 
     Changelog:

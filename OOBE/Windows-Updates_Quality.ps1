@@ -4,7 +4,8 @@
 
 .NOTES
     FileName:    Windows-Updates_Quality.ps1
-    Author:      Florian Salzmann
+    Author:      Thibaut Lemonnier
+    Version:     1.0
     Created:     2024-08-14
     Updated:     2024-08-14
 

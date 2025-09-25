@@ -4,7 +4,7 @@
 .DESCRIPTION
 
 .NOTES
-    Author: Florian Salzmann | @FlorianSLZ | https://scloud.work
+    Author: Thibaut Lemonnier
     Version: 1.0
 
     Changelog:

@@ -6,7 +6,7 @@
     Automates the deployment of Windows 11 with specified parameters, downloads OOBE scripts, and sets up post-installation tasks.
 
 .NOTES
-    Author: Florian Salzmann | @FlorianSLZ | https://scloud.work
+    Author: Thibaut Lemonnier
     Version: 1.0
 
     Changelog:

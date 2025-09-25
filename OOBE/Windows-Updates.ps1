@@ -4,7 +4,8 @@
 
 .NOTES
     FileName:    Windows-Updates&Language.ps1
-    Author:      Florian Salzmann
+    Author:      Thibaut Lemonnier
+    Version:     1.0
     Created:     2024-06-04
     Updated:     2024-06-04
 

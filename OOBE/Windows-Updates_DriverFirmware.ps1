@@ -4,7 +4,7 @@
 
 .NOTES
     FileName:    Windows-Updates_DriverFirmware.ps1
-    Author:      Florian Salzmann
+    Author:      Thibaut Lemonnier
     Created:     2024-08-14
     Updated:     2024-08-14
 

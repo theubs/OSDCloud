@@ -4,13 +4,14 @@
 
 .NOTES
     FileName:    Updates-and-Activation.ps1
-    Author:      Florian Salzmann
-    Created:     2024-08-09
-    Updated:     2024-08-14
+    Author:      Thibaut Lemonnier
+    Version:     1.1
+    Created:     2025-09-25
+    Updated:     2025-09-25
 
     Version history:
-    1.0 - (2024-08-09) Script created
-    1.1 - (2024-08-14) TLS 1.2 added/forced
+    1.0 - (2025-09-25) Script created
+    1.1 - (2025-09-25) TLS 1.2 added/forced
 
 #>
 $Scripts2run = @(
