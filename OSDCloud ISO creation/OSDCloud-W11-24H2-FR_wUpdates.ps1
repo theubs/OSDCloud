@@ -11,7 +11,7 @@
 
 
 # Set Workspace Folder
-$ProjectName = "OSDCloud-EN-W11-24H2"
+$ProjectName = "OSDCloud-FR-W11-24H2"
 $WorkspacePath = "C:\OSDCloud\$ProjectName"
 New-Item -ItemType Directory $WorkspacePath -Force | Out-Null
 Set-OSDCloudWorkspace -WorkspacePath $WorkspacePath
