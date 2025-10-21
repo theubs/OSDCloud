@@ -30,7 +30,7 @@ $Params = @{
     OSVersion = "Windows 11"
     OSBuild = "23H2"
     OSEdition = "Pro"
-    OSLanguage = "de-de"
+    OSLanguage = "en-us"
     OSLicense = "Retail"
     ZTI = $true
     Firmware = $false
@@ -51,7 +51,7 @@ exit /B
 powershell.exe -Command Get-NetIPAddress
 powershell.exe -Command Test-NetConnection raw.githubusercontent.com -Port 443
 powershell.exe -Command Set-ExecutionPolicy Unrestricted -Force
-powershell.exe -Command "& {IEX (IRM https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/OOBE-Task.ps1)}"
+powershell.exe -Command "& {IEX (IRM 'https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/SplashScreen/Updates_Activation.ps1')}"
 
 '@
 $SetupCompleteCMD | Out-File -FilePath 'C:\Windows\Setup\Scripts\SetupComplete.cmd' -Encoding ascii -Force

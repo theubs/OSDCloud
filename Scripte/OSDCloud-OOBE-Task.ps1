@@ -31,7 +31,7 @@ $Params = @{
     OSVersion = "Windows 11"
     OSBuild = "23H2"
     OSEdition = "Pro"
-    OSLanguage = "de-de"
+    OSLanguage = "en-us"
     OSLicense = "Retail"
     ZTI = $true
     Firmware = $false
@@ -44,7 +44,7 @@ Start-OSDCloud @Params
 #################################################################
 Write-Host -ForegroundColor Green "Downloading and creating script for OOBE phase"
 New-Item -Path "C:\Windows\Setup\Scripts" -ItemType Directory -Force | Out-Null
-Invoke-RestMethod   -Uri 'https://raw.githubusercontent.com/FlorianSLZ/OSDCloud-Stuff/main/OOBE/Updates-and-Activation.ps1' `
+Invoke-RestMethod   -Uri 'https://raw.githubusercontent.com/theubs/OSDCloud/refs/heads/main/OOBE/SplashScreen/Updates_Activation.ps1' `
                     -OutFile 'C:\Windows\Setup\Scripts\Updates-and-Activation.ps1' 
 
 $OOBECMD = @'
