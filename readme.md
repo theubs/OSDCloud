@@ -5,6 +5,7 @@ This repository contains PowerShell scripts for automating Windows deployment us
 ## Key Scripts
 
 ### OOBE Automation
+
 - **Windows Updates & Drivers**
   - `Windows-Updates.ps1` - Installs Windows updates and language packs
   - `Windows-Updates_Quality.ps1` - Installs quality/security updates only
@@ -16,14 +17,16 @@ This repository contains PowerShell scripts for automating Windows deployment us
   - `OSDCloud-CleanUp.ps1` - Cleanup temporary files and logs
 
 ### ISO Creation Scripts
+
 Located in `OSDCloud ISO creation/`:
+
 - Multi-language Windows 11 24H2 images
 - Region-specific builds (DE/FR/IT/EN)
 - Basic deployment templates
 
 ## Repository Structure
 
-```
+``` text
 OOBE/                           # Post-install automation scripts
 ├── Windows-Updates*.ps1        # Update management scripts
 ├── OOBE-Task.ps1              # Main OOBE automation
@@ -41,12 +44,14 @@ Scripte/                      # Additional automation scripts
 ## Usage Examples
 
 ### Create Deployment ISO
+
 ```powershell
 # Multi-language Windows 11 24H2
 .\OSDCloud ISO creation\OSDCloud-W11-25H2-en-us_wUpdates.ps1
 ```
 
 ### Run OOBE Tasks
+
 ```powershell
 # Full post-installation setup
 .\OOBE\OOBE-Task.ps1
@@ -74,14 +79,17 @@ Scripte/                      # Additional automation scripts
 ## Logging
 
 Most scripts log to:
-```
+
+``` text
 C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\
 ```
 
 ## Author
+
 Thibaut Lemonnier
 
 ## License
+
 [Unlicense](LICENSE) - Public Domain
 
 For OSDCloud documentation, visit: [OSDCloud Docs](https://osdcloud.osdeploy.com/)
